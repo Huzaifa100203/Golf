@@ -1,0 +1,809 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #E9EAE2;
+}
+.navbar{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo-section{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 20%;
+    }
+    h3{
+        font-weight: 800;
+        font-size: 23px;
+    }
+}
+.middle-section{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box{
+    width: 75%;
+    height: 40px;
+    border: 1px solid rgb(179, 173, 173);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    font-size: 20px;
+    button{
+        width: 20%;
+        background-color: white;
+        border: none;
+        font-size: 19px;
+    }
+}
+.box button:first-child{
+    background-color: #eeeaea;
+    border-radius: 20px;
+    width: 80px;
+    height: 33px;
+}
+.right-section{
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    button{
+        background-color: black;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        border-radius: 30px;
+        width: 50%;
+        height: 40px;
+        
+    }
+    svg{
+        width: 20%;
+    }
+}
+.right-section button:first-child{
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+    width: 40%;
+}
+.exp{
+    background-color: white;
+    padding-top: 70px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.left-part{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    h1{
+        font-size: 50px;
+        line-height: 70px;
+        font-weight: 545;
+    }    
+}
+.right-part{
+    width: 30%;
+    height: 160px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    p{
+        font-size: 18px;
+    }
+    button{
+        width: 35%;
+        height: 22%;
+        font-size: 15px;
+        color: black;
+        background-color: #FFDD2B;
+        border-radius: 30px;
+        border: none;
+    }
+    i{
+        margin-left: 7px;
+    }
+}
+.img-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+    
+}
+.img{
+    width: 90%;
+    height: 400px;
+    background-image: url(./golf\ ball.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+.box2{
+    /* border: 1px solid red; */
+    padding: 20px;
+    border-radius: 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 19%;
+    height: 33%;
+    background-color: white;
+    h3{
+        font-size: 18px;
+    }
+    button{
+        background-color: white;
+        width: 45%;
+        border-radius: 20px;
+        border: 1px solid rgb(189, 184, 184);
+        height: 28%;
+        font-weight: 600;
+    }
+    i{
+        margin-left: 7px;
+    }
+
+}
+.book{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h2{
+        font-size: 40px;
+        font-weight: 550;
+    }
+}
+.card-section{
+    margin-block: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    width: 27%;
+    height: 120px;
+    border: 1px solid rgb(189, 184, 184);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.card:nth-child(2){
+    background-color: #282828;
+    color: white;
+}
+.img-area{
+    width: 38%;
+    /* height: 100%; */
+    
+    img{
+        width: 100%;
+        border-radius: 20px;
+    }
+
+}
+.area{
+    
+    width: 55%;
+    h5{
+        font-size: 20px;
+        margin-bottom: 25px;
+        font-weight: 400;
+        margin-left: 10px;
+
+    }
+    button{
+        width: 40%;
+        height: 30%;
+        margin-left: 10px;
+        background-color: white;
+        border: 1px solid rgb(189, 184, 184);
+        border-radius: 20px;
+        height: 30px;
+        font-weight: 600;
+    }
+    
+}
+.line-container {
+    display: flex;
+    width: 38%; 
+    border: 1px solid rgb(192, 190, 190);
+    border-radius: 30px;
+}
+.line-part {
+    
+
+    height: 4px; 
+    /* flex: 1;  */
+}
+.line-part.one {
+    width: 40%;
+    background-color: #282828;
+}
+.line-part.two {
+    width: 60%;
+    background-color: #e1dbdb; /* Second color */
+}
+.course{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 30px;
+}
+.first-section{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+    h2{
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-weight: 500;
+    }
+    p{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 80px;
+    }
+    button{
+        width: 35%;
+        height: 35px;
+        font-size: 15px;
+        color: black;
+        background-color: #FFDD2B;
+        border-radius: 30px;
+        border: none;
+    }
+    i{
+        margin-left: 7px;
+    }
+}
+.second-section{
+    width: 25%;
+    height: 480px;
+    /* border-radius: 20px; */
+    
+}
+.card2{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    background-image: url(golf\ player.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.third-section{
+    width: 28%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.card3{
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(close-up-golf-player_23-2150947139.avif);
+    background-position: center;
+    background-size: cover;
+    padding: 25px;
+    margin-bottom: 50px;
+    button{
+        background-color: white;
+        font-size: 15px;
+        width: 25%;
+        height: 25px;
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 90px;
+    }
+    h6{
+        color: rgb(103, 98, 98);
+        font-size: 15px;
+    }
+    h4{
+        color: rgb(29, 171, 232);
+        font-size: 20px;
+        font-weight: 100;
+    }
+   
+}
+.expert{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    h6{
+        font-size: 14px;
+        font-weight: 400;
+
+    }
+    button{
+        width: 30%;
+        font-size: 15px;
+        height: 35px;
+        border-radius: 30px;
+        background-color:#282828;
+        color: white;
+    }
+    i{
+        margin-left: 7px;
+    }
+    margin-bottom: 110px;
+}
+.expert-logo{
+    width: 12%;
+    height: 40px;
+    background-color: #FFDD2B;
+    border-radius: 5px;
+    img{
+        width: 60%;
+        position: relative;
+        left: 10px;
+        top: 2px;    
+    }
+}
+.img-section2{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img2{
+    border-radius: 20px;
+    width: 95%;
+    height: 400px;
+    background-image: url(golf\ ball\ 3.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    padding: 50px;
+    h2{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    button{
+        width: 10%;
+        height: 35px;
+        font-size: 15px;
+        color: black;
+        background-color: #FFDD2B;
+        border-radius: 30px;
+        border: none;    }
+        i{
+            margin-left: 7px;
+        }
+}
+.box3{
+    width: 14%;
+    height: 15%;
+    background-color: white;
+    position:absolute;
+    border-radius: 20px;
+    padding: 20px;
+    top: 2090px;
+    right: 120px;
+    h1{
+        font-size: 40px;
+        font-weight: 400;
+    }
+}
+.discover{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discover-content{
+    width: 95%;
+    height: 700px;
+    background-color: #EFF1E4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    button{
+        width: 14%;
+        height: 38px;
+        border-radius: 30px;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+    }
+    i{
+        margin-left: 7px;
+    }
+}
+.card-section2{
+    width: 95%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card4{
+    /* background-color: black; */
+    width: 20%;
+    height: 75%;
+    line-height: 25px;
+    h4{
+        font-size: 19px;
+    }
+    p{
+        font-size: 14px;
+        color: gray;
+    }
+
+}
+.box5{
+    width: 100%;
+    height: 70%;
+    background-image: url(cap.jpg);
+
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    button{
+        width: 32%;
+        height: 28px;
+        background-color: #B1BB24;
+        color: white;
+        border-radius: 30px;
+        border: none;
+        
+    }
+}
+.box6{
+    width: 100%;
+    height: 70%;
+    background-image: url(golf-club-studio_23-2150924320.avif);
+    background-position: top;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+
+}
+.box7{
+    width: 100%;
+    height: 70%;
+    background-image: url(golf\ putter.jpeg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+}
+.box8{
+    width: 100%;
+    height: 70%;
+    background-image: url(golf\ bag.avif);
+    background-position: top;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+}
+.icon-box{
+    width: 15%;
+    height: 24%;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.blog{
+    padding: 50px;
+    width: 100%;
+    height: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    h1{
+        font-size: 50px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 15px;
+        color: rgb(105, 105, 105);
+    }
+}
+.card-section3{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 90px;
+    
+    
+}
+.left-card-section{
+    width: 35%;
+    height: 450px;
+    margin-bottom: 30px;
+}
+.right-card-section{
+    width: 60%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.left-card{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background-image: url(golf\ player.jpeg);
+    background-position: top;
+    background-size: cover;
+    padding: 25px;
+    h6{
+        color: gray;
+        font-size: 15px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    h5{
+        font-size: 19px;
+        font-weight: 600;
+        margin-bottom: 300px;
+    }
+    button{
+        width: 35%;
+        height: 35px;
+        border-radius: 20px;
+        border: none;
+        font-weight: 600;
+
+    }
+    i{
+        margin-left: 7px;
+    }
+}
+.card5{
+    width: 100%;
+    height: 31%;
+    background-color: #F3F7FA;
+    border-radius: 20px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.card6{
+    width: 100%;
+    height: 31%;
+    border-radius: 20px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(218, 211, 211);
+  
+}
+
+.card7{
+    width: 100%;
+    height: 31%;
+    border-radius: 20px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(218, 211, 211);
+    opacity: 60%;
+}
+.img-area2{
+    width: 25%;
+    
+    img{
+        width: 100%; 
+       border-radius: 20px;
+
+    }
+}
+.card-content{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    h6{
+        color: gray;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    h5{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    button{
+        width: 25%;
+        height: 35px;
+        border-radius: 20px;
+        border: none;
+        font-weight: 600;
+        background-color: #FFDD2B;
+    }
+    i{
+        margin-left: 7px;
+    }
+}
+.scroll-line-container {
+    height: 450px; /* Fixed height */
+    
+    width: 20px; /* Fixed width for the line */
+    border: 1px solid #fffefe; /* Optional border for visibility */
+    background-color: #fff; /* Background color */
+}
+
+.scroll-line {
+    display: block; /* Make it a block element */
+    width: 5px; /* Line width */
+    height: 400px; /* Height of the line (longer than the container) */
+    background: linear-gradient(to bottom, rgb(53, 51, 51), rgb(209, 209, 214)); /* Gradient for color */
+        border-radius: 30px;
+
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 800px;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.list-section{
+    width: 95%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 100px;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 35%;
+        margin-right: 20px;
+    }
+    margin-bottom: 20px;
+}
+.list{
+    width: 23%;
+    height: auto;
+    text-align: left;
+    color: white;
+    li{
+        line-height: 29px;
+    }
+    label{
+        line-height: 90px;
+    }
+    p{
+        font-size: 14px;
+        color: white;
+    }
+    
+}
+
+footer hr{
+    width: 87%;
+}
+.copyright{
+    margin-top: 0px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    
+}
+.copy-content{
+    width: 65%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    color: white;
+}
+.icon-box{
+    background: none;
+    width: 10%;
+    height: auto;
+    border: none;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    flex-direction: row;
+}
