@@ -426,6 +426,7 @@
     flex-direction: column;
     color: white;
     padding: 50px;
+    position: relative;
     h2{
         font-size: 50px;
         font-weight: 400;
@@ -449,7 +450,6 @@
     position:absolute;
     border-radius: 20px;
     padding: 20px;
-    top: 2090px;
     right: 120px;
     h1{
         font-size: 40px;
@@ -806,4 +806,354 @@ footer hr{
     align-items: end;
     justify-content: space-around;
     flex-direction: row;
+}
+
+@media (max-width:768px){
+    .main-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .navbar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .logo-section{
+        width: 30%;
+    }
+    .middle-section{
+        display: none;
+    }
+    .right-section{
+        width: 30%;
+    }
+    .exp{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .left-part{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .right-part{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        row-gap: 10px;
+        button{
+            width: 30%;
+            height: 50px;
+        }
+    }
+    .img-section{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    }
+
+    .box2{
+        width: 40%;
+        height: auto;
+        button{
+            width: 55%;
+            height: 35px;
+        }
+    }
+
+    .book{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .card-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 30%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        .img-area{
+            width: 100%;
+
+        }
+        .area{
+            width: 100%;
+            button{
+                width: 50%;
+            }
+        }
+    }
+    .course{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .first-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        br{
+            display: none;
+        }
+        h2{
+            font-size: 48px;
+        }
+    }
+    .second-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .card2{
+        width: 100%;
+    }
+    .third-section{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        button{
+            width: 30%;
+        }
+    }
+    .expert{
+        width: 100%;
+        height: auto;
+        row-gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-section2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .img2{
+        width: 90%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        br{
+            display: none;
+        }
+        button{
+            width: 40%;
+        }
+       
+    }
+    .box3{
+        width: 25%;
+        position: absolute;
+        bottom: 5px;
+        right: 50px;
+        height: 25%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .discover{
+        padding-top: 20px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .discover-content{
+        width: 95%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-block: 20px;
+         button{
+            width: 50%;
+        }
+    }
+    .card-section2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+    }
+    .card4{
+        width: 80%;
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .icon-box{
+        width: 20%;
+    }
+
+
+    .blog{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card-section3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .left-card-section{
+        width: 100%;
+    }
+    .scroll-line-container{
+        display: none;
+    }
+    .right-card-section{
+        width: 100%;
+        height: auto;
+        row-gap: 15px;
+    }
+    .card-content{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .img-area2{
+        width: 80%;
+    }
+    .card5{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-block: 10px;
+    }
+    .card6{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-block: 10px;
+    }
+    .card7{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-block: 10px;
+        opacity: 100%;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .list-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .list{
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .logo{
+        width: 80%;
+    }
+
+    .copyright{
+        margin-block: 10px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .copy-content{
+        margin-block: 10px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
